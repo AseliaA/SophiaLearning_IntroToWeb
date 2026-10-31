@@ -1,4 +1,3 @@
-/* Mobile first */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -53,7 +52,6 @@ button {
   border: none;
 }
 
-/* Larger screens */
 @media (min-width: 768px) {
   nav ul {
     flex-direction: row;
