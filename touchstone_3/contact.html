@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | North Star Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="media/bakery-logo_c.png" alt="North Star Bakery logo" width="150">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact Us</h1>
+
+    <section>
+      <h2>Pre Order or Ask a Question</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Your Request</legend>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="pickup">Pickup Date</label>
+          <input type="date" id="pickup" name="pickup">
+
+          <label for="type">Request Type</label>
+          <select id="type" name="type" required>
+            <option value="">Choose one</option>
+            <option value="preorder">Pre order</option>
+            <option value="question">General question</option>
+          </select>
+
+          <label for="details">Item Details</label>
+          <textarea id="details" name="details" rows="4" required></textarea>
+
+          <label for="allergy">Allergy Notes (if any)</label>
+          <textarea id="allergy" name="allergy" rows="2"></textarea>
+
+          <button type="submit">Send Request</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <h2>Location</h2>
+      <p>123 Magic Street, Chicago, IL</p>
+    </section>
+
+    <section>
+      <h2>Hours</h2>
+      <ul>
+        <li>Monday to Sunday: 7 AM to 7 PM</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 North Star Bakery. 123 Magic Street, Chicago, IL.</p>
+  </footer>
+</body>
+</html>
